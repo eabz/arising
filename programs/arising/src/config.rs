@@ -4,15 +4,15 @@ pub const CONFIG_PREFIX: &str = "arising_config_account";
 
 /// Config account bytes size.
 pub const CONFIG_ACCOUNT_SIZE: usize = 8 + // discriminator
-    1 + // paused
-    1 + // initialized
-    32 + // authority
-    64 + // seconds_between_refreshes
-    64 + // seconds_between_paid_refreshes
-    64 + // max_characters
-    64 + // experience_multiplier
-    64 + // forge_recipes
-    64 + // craft_recipes
+    1 +     // paused
+    1 +     // initialized
+    32 +    // authority
+    64 +    // seconds_between_refreshes
+    64 +    // seconds_between_paid_refreshes
+    64 +    // max_characters
+    64 +    // experience_multiplier
+    64 +    // forge_recipes
+    64 +    // craft_recipes
     64; // upgrade_recipes
 
 /// Arising program config settings.

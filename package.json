@@ -1,21 +1,23 @@
 {
-  "license": "ISC",
-  "scripts": {
-    "build": "anchor build",
-    "format": "biome format --write .",
-    "lint": "biome lint --write ."
-  },
-  "dependencies": {
-    "@coral-xyz/anchor": "0.31.1"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.2.4",
-    "@types/bn.js": "5.2.0",
-    "@types/chai": "5.2.2",
-    "@types/mocha": "10.0.10",
-    "chai": "6.0.1",
-    "mocha": "11.7.2",
-    "ts-mocha": "11.1.0",
-    "typescript": "5.9.2"
-  }
+	"license": "ISC",
+	"scripts": {
+		"build": "anchor build",
+		"format": "biome format --write .",
+		"lint": "biome lint --write ."
+	},
+	"dependencies": {
+		"@coral-xyz/anchor": "0.31.1",
+		"@metaplex-foundation/mpl-token-metadata": "3.4.0",
+		"@solana/kit": "3.0.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.4",
+		"@types/bn.js": "5.2.0",
+		"@types/chai": "5.2.2",
+		"@types/mocha": "10.0.10",
+		"chai": "6.0.1",
+		"mocha": "11.7.2",
+		"ts-mocha": "11.1.0",
+		"typescript": "5.9.2"
+	}
 }
