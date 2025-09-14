@@ -137,7 +137,7 @@ pub fn consume_materials(
 
 #[inline(always)]
 pub fn has_enough_materials(
-    character_materials: &mut Account<CharacterMaterials>,
+    character_materials: &Account<CharacterMaterials>,
     materials: &[u32; 10],
     amounts: &[u32; 10],
     types: &[u16; 10],
